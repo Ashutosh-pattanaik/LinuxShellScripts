@@ -2,7 +2,7 @@
 #############################
 #Author :- Ashutosh Pattanaik
 #Date :-
-#Description :- variables & their uses
+#Description :- Hello 
 #############################
 
 echo "Hello"
