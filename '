@@ -1,0 +1,14 @@
+#!/bin/bash
+#############################
+#Author :- Ashutosh Pattanaik
+#Date :-
+#Description :- file and dir exist check  
+#############################
+Filepath="/home/ubuntu/ShellScripts/name"
+if [[ -f $filepath ]]
+then echo "File exists"
+else echo "file not exist "
+	echo "creating file"
+	touch name
+	exit 1
+fi
